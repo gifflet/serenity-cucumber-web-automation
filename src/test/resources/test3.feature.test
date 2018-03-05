@@ -1,0 +1,9 @@
+Feature: Operação básica 3
+
+@usrum
+ Scenario Outline: Test3
+  Given test iniciated 2 "<test_message>"
+  Then test finished
+Examples:
+	| test_message		|
+	|	C#				|

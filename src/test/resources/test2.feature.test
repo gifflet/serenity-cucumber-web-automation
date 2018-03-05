@@ -1,0 +1,10 @@
+Feature: Operação básica 2
+
+@usrum
+ Scenario Outline: Test2
+  Given test iniciated "<test_message>"
+  Then test finished
+Examples:
+	| test_message		|
+	|	C				|
+#	| kotlin			|
