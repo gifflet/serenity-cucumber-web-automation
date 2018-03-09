@@ -29,4 +29,14 @@ public class Definition {
 	public void test_finished() throws Throwable {
 	    System.out.println(arg + " finished");
 	}
+	
+	@Given("^estou na pagina do google$")
+	public void estou_na_pagina_do_google() throws Throwable {
+		business.abrirPagina("https://www.google.com.br");
+	}
+
+	@Then("^pesquise por kotlin$")
+	public void pesquise_por_kotlin() throws Throwable {
+		business.pesquisarPor("kotlin");
+	}	
 }
