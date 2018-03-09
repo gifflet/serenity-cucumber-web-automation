@@ -20,7 +20,6 @@ public class Main {
 	public void run() {
 		testRunner = new SuiteTestRunner();
 		Result result = testRunner.runWithJunit(WebTest.class);
-
 		if (result.getFailureCount() > 0) {
 			System.out.println("================== FAILURES ====================");
 			for (Failure failure : result.getFailures()) {
