@@ -21,7 +21,7 @@ public class IEDriver implements DriverSource {
 
 	@Override
 	public boolean takesScreenshots() {
-		return true;
+		return false;
 	}
 
 }
