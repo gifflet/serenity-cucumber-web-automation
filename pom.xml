@@ -119,6 +119,12 @@
 			<artifactId>selenium-server</artifactId>
 			<version>${selenium.version}</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/net.serenity-bdd/serenity-spring -->
+		<dependency>
+			<groupId>net.serenity-bdd</groupId>
+			<artifactId>serenity-spring</artifactId>
+			<version>1.9.3</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
